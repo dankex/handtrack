@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.6)
+
+FIND_PACKAGE(LibHand REQUIRED
+  PATHS "../../libhand-0.9/hand_cpp"
+  NO_MODULE
+  NO_DEFAULT_PATH)
+
+include_directories(${LibHand_INCLUDE_DIRS})
+
+ADD_EXECUTABLE(render render.cpp)
+TARGET_LINK_LIBRARIES(render ${LibHand_LIBRARIES})

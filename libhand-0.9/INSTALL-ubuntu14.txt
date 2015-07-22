@@ -1,0 +1,6 @@
+Dependencies:
+
+OGRE 1.8.1
+
+freetype 2.6
+

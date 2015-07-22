@@ -18,3 +18,8 @@ Usage:
   ./install_ogre_static.sh clean
 
   to clean up this directory
+
+For Ubuntu 14.04:
+
+  Use OGRE 1.8.1
+
